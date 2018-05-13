@@ -38,9 +38,3 @@ function validate(){
 		document.getElementById('phoneNum').value = userInput.substring(0, 9);
 	}
 }
-
-//Xvalidate for US numbers
-//Xprepending formatting (things come before)
-//Xdelete digits, delete immediately preceding formatting chars
-//copy paste phone number should work properly formatted
-//Xdisable non number input 
